@@ -1,0 +1,73 @@
+
+
+/* botei o chatgpt pra comentar, pq acho mais fácil, se tiver alguma dúvida me fala
+
+
+/* Reset de estilos padrão para todos os elementos */
+* {
+    margin: 0; /* Sem margem ao redor dos elementos */
+    padding: 0; /* Sem espaço interno extra nos elementos */
+    box-sizing: border-box; /* Bordas não afetam o tamanho total dos elementos */
+    outline: 0; /* Remove a borda de foco ao clicar nos elementos */
+}
+
+/* Estilos para o corpo da página */
+body {
+    font-family: 'Phudu', sans-serif; /* Usar uma fonte elegante para o texto */
+    text-align: center; /* Centralizar o texto e os elementos na página */
+    background-image: linear-gradient(to bottom, #336699, #f0f0f0); /* Gradiente de fundo */
+    color: #333; /* Cor principal do texto */
+    display: flex; /* Organizar o conteúdo de forma flexível */
+    flex-direction: column; /* Alinhar os elementos verticalmente */
+    align-items: center; /* Centralizar horizontalmente os elementos */
+    justify-content: center; /* Centralizar verticalmente os elementos */
+    min-height: 100vh; /* Garantir que a página preencha pelo menos toda a altura da tela */
+}
+
+/* Estilos para o título */
+h1 {
+    font-size: 28px; /* Tamanho do título */
+    margin-top: 20px; /* Espaçamento acima do título */
+}
+
+/* Estilos para o formulário */
+form {
+    margin-top: 20px; /* Espaçamento acima do formulário */
+    display: flex; /* Organizar o conteúdo do formulário de forma flexível */
+    flex-direction: column; /* Alinhar os elementos do formulário verticalmente */
+    align-items: center; /* Centralizar horizontalmente os elementos do formulário */
+}
+
+/* Estilos para os campos de entrada */
+p {
+    text-align: left; /* Alinhar o texto à esquerda dentro dos parágrafos */
+    margin: 10px 0; /* Espaçamento entre os campos de entrada */
+    width: 100%; /* Ocupar toda a largura disponível */
+}
+
+/* Estilos para os campos de entrada de data e texto */
+input[type="date"],
+input[type="text"] {
+    width: 100%; /* Ocupar toda a largura disponível */
+    padding: 10px; /* Espaçamento interno nos campos de entrada */
+    border: 1px solid #ccc; /* Borda fina cinza ao redor dos campos */
+    border-radius: 5px; /* Borda arredondada */
+    margin: 5px 0; /* Espaçamento vertical entre os campos de entrada */
+}
+
+/* Estilos para o botão de envio */
+button {
+    margin-top: 20px; /* Espaçamento acima do botão */
+    background-color: #336699; /* Cor de fundo destacada para o botão */
+    color: #fff; /* Cor do texto no botão */
+    border: none; /* Remover a borda do botão */
+    border-radius: 5px; /* Borda arredondada */
+    padding: 10px 20px; /* Espaçamento interno do botão */
+    cursor: pointer; /* O cursor do mouse muda ao passar sobre o botão */
+}
+
+/* Estilos para a imagem no rodapé */
+footer img {
+    width: 200px; /* Largura da imagem */
+    height: auto; /* Altura automática para manter a proporção */
+}

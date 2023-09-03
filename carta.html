@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link href="https://fonts.googleapis.com/css2?family=Phudu:wght@300;400;500;600;800&family=Rubik+Iso&display=swap" rel="stylesheet" />
+    
+        <link rel="stylesheet" href="css para carta/cartinha.css" />
+        <title>Carteca</title>
+    </head>
+    <body>
+        <footer>
+        <img 
+        src="assets/correieca.png.png" 
+        alt="logo correieca">
+        </footer>
+        <h1>Escreva sua carta</h1>
+            <form action="/carta" method="POST">
+
+            <p>Data: <input type="date" id="data" name="data"></p>
+            <p>Destinatário: <input type="text" id="dest" name="dest"></p>
+            <p>Mensagem: <input type="text" id="msg" name="msg"></p>
+            <p>Remetente: <input type="text" id="rem" name="rem"></p>
+
+            <button type="submit" name="botao" value="add">Gerar carta</button>
+
+            </form>
+    </body>
+</html>
